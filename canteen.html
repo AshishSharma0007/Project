@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Canteen</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Online Canteen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#order">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Welcome to the Online Canteen!</h1>
+        <p class="lead">Order from our wide range of tasty dishes and beverages.</p>
+        <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="container">
+      <h2>Menu</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <img src="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?q=10&h=200" class="card-img-top" alt="Burger">
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <p class="card-text">A juicy beef patty topped with lettuce, tomato, and cheese.</p>
+              <p class="card-text">Price: $5.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <img src="https://godfatherpizzeria.com.np/image/cache/catalog/product-image/mixed-pizza-200x200.jpg" class="card-img-top" alt="Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">Thin-crust pizza with a variety of toppings.</p>
+              <p class="card-text">Price: $8.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more menu items here -->
+      </div>
+    </section>
+
+    <section id="order" class="container">
+      <h2>Place Your Order</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea class="form-control" id="address" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="items">Items:</label>
+          <input type="text" class="form-control" id="items" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Place Order</button>
+      </form>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <p>For any inquiries or support, please reach out to us:</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: info@onlinecanteen.com</p>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center">
+    <p>&copy; 2023 Online Canteen. All rights reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
